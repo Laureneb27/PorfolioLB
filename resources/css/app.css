@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+
+* {
+    @apply text-gray-500; 
+}
+
+a:hover {
+    @apply text-gray-900;
+  }
